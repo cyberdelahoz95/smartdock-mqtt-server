@@ -1,0 +1,25 @@
+{
+  "name": "smartdock-tourniquets-mqtt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "aedes": "^0.40.1",
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.0",
+    "helmet": "^3.21.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "redis": "^2.8.0"
+  }
+}
